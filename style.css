@@ -1,0 +1,468 @@
+/*-----------all----------*/
+
+body{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+
+margin-bottom: 60px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+/*-----------header----------*/
+
+.hd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+header li a{
+    text-decoration: none;
+    color: black;
+}
+
+header li a:hover{
+    color: #FF4F70;
+}
+
+header img{
+    width: 300px;
+    height: auto;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #FF4F70;
+    border-radius: 30px;
+    padding: 12px 24px;
+
+}
+
+.btn:hover{
+   background-color: #FF7690;
+}
+
+
+/*-----------top----------*/
+
+h1{
+    margin-left: 60px;
+}
+
+.hataraku{
+    color: #FF4F70;
+    font-size: 18px;
+}
+
+.web{
+    color: #FF4F70;
+}
+
+.top{
+    position: relative;
+}
+.ue{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.top-im{
+    width: 1000px;
+    height: auto;
+     display: block;
+     margin: 0 auto;
+}
+
+.top p{
+    font-size: 14px;
+}
+
+.top-text{
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.icons{
+    text-align: center;
+    display: flex;
+    gap: 30px;
+}
+
+.icons img{
+    width: 40px;
+    height: auto;
+}
+
+.icons p{
+    margin-top: 5px;
+}
+
+.icon{
+    background-color:#FFF5F7;
+    border-radius: 100px;
+    padding: 12px 24px;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.top a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF4F70;
+    border-radius: 30px;
+    padding: 12px 24px;
+    margin-left: 100px;
+}
+
+ .top a:hover{
+    background-color:#FF7690;
+ }
+
+/*-----------riyuu----------*/
+
+.riyuu ul{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.riyuu li{
+   text-align: center;
+   background-color: #FFF5F7;
+   padding: 12px 24px;
+   width: 250px;
+   height: auto;
+   
+}
+
+.riyuu img{
+    width: 80px;
+    height: auto;
+}
+
+.riyuu p{
+   
+    margin-top: 5px;
+}
+
+.riyuu h3{
+    margin-bottom: 5px;
+}
+
+/*-----------nagare----------*/
+
+.nagare ul{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.nagare li{
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    padding: 10px 20px;   
+    width: 300px;
+}
+
+.nagare span{
+    font-size: 19px;
+    color: #FF7690;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.nagare h3{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.nagare p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.nagare img{
+    width: 50px;
+    height: auto;
+}
+
+/*-----------price----------*/
+
+.price-1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.price-2{
+   background-color: #FFF5F7;
+   padding: 12px 24px;
+   width: 250px;
+   height: 330px;
+   box-sizing: border-box;
+   display: flex;
+  flex-direction: column;
+}
+
+.en{
+    font-size: 20px;
+    position: relative;
+    top: 12px;
+}
+
+.zei{
+    position: relative;
+    top: 12px;
+}
+
+.price p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.price h3{
+   text-align: center;
+    margin-bottom: 0;
+    height: 45px;
+}
+
+.price-text{
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+}
+
+.course{
+    font-size: 14px;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.price li a{
+    display: block;
+    text-align: center;
+    margin-top: auto;
+    text-decoration: none;
+    color: white;
+    background-color: #FF4F70;
+    border-radius: 30px;
+    padding:  5px 12px;
+
+}
+
+.price li a:hover{
+    color: #FF7690;
+}
+
+.no{
+    color: white;
+    font-size: 10px;
+    background-color: #FF4F70;
+    border-radius: 30px;
+    padding:  5px 10px;
+    
+    
+}
+
+.stdd{
+    margin-top: 0px;
+}
+
+
+/*-----------koe----------*/
+
+.koe img{
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.koe ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+}
+
+.koe li{
+    width: 32%;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.koe p{
+    font-size: 17px;
+}
+
+.koe h3{
+    font-size: 14px;
+    
+}
+
+/*-----------q-a----------*/
+
+.q-text{
+    color: #FF4F70;
+    font-size: 20px;
+}
+
+summary{
+    font-size: 17px;
+}
+
+.q-a p{
+    font-size: 17px;
+    background-color: white;
+     margin: 0;
+    padding: 8px;
+}
+
+details{
+    background-color: #FFF5F7;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/*-----------soudan----------*/
+
+.soudan-pic{
+    display: flex;
+    background-color: #FFF5F7;
+    border: 1px solid #FF7690;
+    border-radius: 15px;
+
+}
+
+.soudan img{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.soudan h2{
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+
+.soudan a{
+    display: block;
+    text-align: center;
+    margin-top: auto;
+    text-decoration: none;
+    color: white;
+    background-color: #FF4F70;
+    border-radius: 30px;
+    padding:  5px 12px;
+    margin: 30px 60px;
+    width: 500px;
+   margin-left: 150px;
+}
+
+.soudan p{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+/*-----------footer----------*/
+
+.lo{
+    width: 300px;
+    height: auto;
+}
+
+.ic{
+    width: 150px;
+    height: auto;
+}
+
+ .ft-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.ft-menus {
+  display: flex;
+  gap: 80px;
+
+
+}
+
+.ft h3{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.ft-menu {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.ft{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF5F7;
+    border: 1px;
+    border-radius: 15px;
+}
+
+.copyright{
+   text-align: center;
+}
